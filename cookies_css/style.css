@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.cookies-box{
+    position: fixed;
+    bottom: 0;
+    background: #010c4c;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: -2px 0 24px 0 rgba(0, 0, 0, .8);
+    transition: all 500ms ease;
+}
+ .container-cookies{
+     padding: 20px 0px;
+     max-width: 90%;
+     display: flex;
+     align-items: center;
+    }
+
+.parrafo p{
+    color: white;
+}
+.parrafo a{
+    color: #cccccc;
+}
+.botones{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.botones button{
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 200ms ease-in;
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+}
+.botones button:hover{
+color: #f66;
+border: 2px solid #f66;
+}
+.botones button:last-child{
+margin-top: 5px;
+}
+#ver{
+    cursor: pointer;
+}
+
+.modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background: white;
+    border: 1px solid rgba(0, 0, 0, .5);
+    padding: 20px;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    color: black;
+    transition: all 500ms ease;
+    transform: translate(-50%, -50%)
+    
+}
+.titulito{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.titulito  button{
+    padding: 10px;
+    background: transparent;
+    border: 2px solid black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.titulito button:hover{
+    border: 2px solid #f66;
+    color: #f66;
+}
+
+.parrafito{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.aceptar-modal button{
+    background: transparent;
+    color: black;
+    border: 2px solid black;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 200ms ease-in;
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+}
+.aceptar-modal button:hover{
+    color: #f66;
+    border: 2px solid #f66;
+    }
+
+
+
+
+
