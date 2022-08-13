@@ -9,7 +9,7 @@ html{
     background: -webkit-linear-gradient(to right, #F3F9A7, #CAC531);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #F3F9A7, #CAC531); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-/* Cabio 15 agregamos los estilos (ya act.)*/
+
 .header{
     width: 100%;
     height: 50px;
@@ -57,14 +57,13 @@ text-decoration: none;
     border-radius: 3px;   
 }
 
-/* hasta aqui*/
+
 
 .titulo{
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     text-align: center;
-    /* agregar estos dos estilos (ya act.)*/
     margin-top: 70px;
     padding-top: 25px;
     
@@ -75,7 +74,7 @@ text-decoration: none;
     margin-top: 10px;
     background-color: aqua;
     border-radius: 10px;
-    max-width: 300px;
+    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
     box-shadow: gray 4px 4px 4px;
@@ -87,20 +86,20 @@ margin-bottom: 10px;
 }
 .input1, .input2, .input3{
     box-shadow: gray 2px 2px 5px;
-    border: 0.5px solid black;
     border-radius: 5px;
-    height: 23px;
+    height: 40px;
+    border: none;
+    border-bottom: 0.3px solid #000;
 }
 .Title{
     text-align: center;
     margin-top: 30px;
 }
 .boton{
-    
-    color: black;
     margin-top: 10px;
     width: 50px;
     box-shadow: black 4px 4px 4px;
+    color: white;
 }
 
 .intrucciones{

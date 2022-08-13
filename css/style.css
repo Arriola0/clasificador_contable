@@ -87,19 +87,26 @@ margin-bottom: 10px;
     box-shadow: gray 2px 2px 5px;
     border: 0.5px solid black;
     border-radius: 5px;
-    height: 23px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    border-bottom: 0.3px solid #000;
+    background-color: 	#fffaf0;
 }
 .Title{
     text-align: center;
     margin-top: 30px;
 }
 .boton{
-    
-    color: black;
+    color: white;
     margin-top: 10px;
     width: 50px;
     box-shadow: black 4px 4px 4px;
     cursor: pointer;
+    background-color: #000;
+    padding: 3px;
+    border: none;
+    border-radius: 3px;
 }
 
 .intrucciones{
@@ -128,19 +135,28 @@ font-size: 120%;
 }
 
 .boton_2{
-    display: block;
+display: block;
 margin-top: 5px;    
 margin-left: calc(50% - 40px);
 background-color: black;
 color: white;
 box-shadow: gray 4px 4px 4px;
 cursor: pointer;
+border: none;
+padding: 3px;
+border-radius: 3px;
 }
 .list{
     margin-left: calc(50% - 155px);
     margin-top: 10px;
     max-width: 315px;
     cursor: pointer;
+    height: 35px;
+    text-align: center;
+    border: none;
+    border-bottom: 0.3px solid #000;
+    border-radius: 5px;
+    background-color: #e6e6fa;
 }
 .informacion{
     margin-top: 35px;
