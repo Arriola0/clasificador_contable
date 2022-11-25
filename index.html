@@ -105,7 +105,7 @@ perdida y ganancia en contabilidad, es muy útil para saber a que pertenece una 
 
 <section class="fondo1">
     <h1 class="titulo">
-    Clasificador de cuentas contables
+    CLASIFICADOR DE CUENTAS CONTABLES
 </h1>
     <section class="intrucciones">
         <h1>Instrucciones:</h1>
@@ -882,32 +882,47 @@ perdida y ganancia en contabilidad, es muy útil para saber a que pertenece una 
 
 
     </select>
-    
+
+    <section>
     <input type="button" value="Seleccionar" onclick="lista()" class="boton_2">
-    
     </section>
 
-    <section class="claificador_espalda">
+   
 
 <form name="registro" class="formulario">
-<label for="texto"></label>
-    <td>Escriba la cuenta: </td><input type="text" name="texto" id="texto" placeholder="Escribir cuenta" class="input1">
-    <input type="button" name="btn1" value="Buscar" onclick="obtenerdatos()" class="boton">
+    
+    <div class="ingresarCuenta">
+<label>
+   <p>Escriba la cuenta:</p>
+   <input type="text" name="texto" id="texto" placeholder="BUSCAR EN LA LISTA &#128070;" class="input1">
+   <div><input type="button" name="btn1" value="Buscar" onclick="obtenerdatos()" class="boton"></div>
 </label>
+     </div>
 
-<br>
-<br>
+<div class="resultadoA">
+<label>
+    <p>ACTIVO - PASIVO o PERDIDA - GANANCIA:</p> 
+    <input type="text" name="obtenerDato" id="obtenerDato" placeholder="Resultado" class="input2" disabled>
+</label>
+</div>
 
-<label for="obtenerDato">
-    <td>La cuenta es: </td><input type="text" name="obtenerDato" id="obtenerDato" placeholder="Resultado" class="input2">
+<div class="resultadoAA">
+<label>
+    <p>DEBE O HABER:</p> 
+    <input type="text" name="obtenerDato2" id="obtenerDato2" placeholder="Resultado" class="input3" disabled>
 </label>
-<br>
-<br>
-<label for="obtenerDato2">
-    <td>Del libro: </td><input type="text" name="obtenerDato2" id="obtenerDato2" placeholder="Resultado" class="input3">
-</label>
+</div>
+
+
+
+
+
+
+
+
+
 </form>
-</section>
+
 
 
 <div class="fondo_publi">
@@ -954,6 +969,7 @@ Es de mucha utilidad para los jóvenes estudiantes que se estan acercando a la c
     que clasificación pertenece, muy fácil y rápido.
     </article>
 </section>
+
 
 
 <div class="cookies-box">

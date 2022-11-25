@@ -4,20 +4,12 @@
     padding: 0;
 }
 
-html{
-    background: #CAC531;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F3F9A7, #CAC531);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F3F9A7, #CAC531); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-/* Cabio 15 agregamos los estilos (ya act.)*/
+
 .header{
     width: 100%;
     height: 50px;
     display: flex;
     justify-content: space-around;
-    background: #a8ff78;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     box-shadow: gray 4px 4px 4px;
     position: fixed;
     top: 0;
@@ -49,7 +41,6 @@ text-decoration: none;
 .header-nav li{
     width: 50px;
     height: 40px;
-    background-color: aqua;
     text-align: center;
     padding-top: 10px;
     margin-top: 3px;
@@ -57,14 +48,11 @@ text-decoration: none;
     border-radius: 3px;   
 }
 
-/* hasta aqui*/
-
 .titulo{
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     text-align: center;
-    /* agregar estos dos estilos (ya act.)*/
     margin-top: 70px;
     padding-top: 25px;
     
@@ -73,9 +61,8 @@ text-decoration: none;
 .formulario{
     text-align: center;
     margin-top: 10px;
-    background-color: aqua;
     border-radius: 10px;
-    max-width: 300px;
+    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
     box-shadow: gray 4px 4px 4px;
@@ -87,9 +74,10 @@ margin-bottom: 10px;
 }
 .input1, .input2, .input3{
     box-shadow: gray 2px 2px 5px;
-    border: 0.5px solid black;
     border-radius: 5px;
-    height: 23px;
+    height: 40px;
+    border: none;
+    border-bottom: 0.3px solid #000;
 }
 .Title{
     text-align: center;
@@ -99,26 +87,20 @@ margin-bottom: 10px;
     margin-top: 10px;
     width: 50px;
     box-shadow: black 4px 4px 4px;
-    color: white;
 }
 
 .intrucciones{
     margin-top: 30px;
-    /*agregar lo siguiente (ya act.)*/
     margin-left: auto;
     margin-right: auto;
     width: 80%;
     
-/*hasta aqui*/
 }
 .intrucciones2{
-/*agregar lo siguiente (ya act.)*/
 margin-left: auto;
 margin-right: auto;
 width: 80%;
 font-size: 120%;
-/*hasta aqui*/
-
 }
 .intrucciones li{
     margin-left: 18px;
@@ -136,8 +118,6 @@ font-size: 120%;
     display: block;
 margin-top: 5px;    
 margin-left: calc(50% - 40px);
-background-color: black;
-color: white;
 box-shadow: gray 4px 4px 4px;
 }
 .list{
@@ -153,28 +133,19 @@ box-shadow: gray 4px 4px 4px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 30px;
-    background: #a8ff78;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
-.informacion h3{/*cambiar a un h3 (ya act.*/
+.informacion h3{
     margin-bottom: 20px;
-    /*agregar esto (ya act.)*/
 width: 80%;
 margin-left: auto;
 margin-right: auto;
-/*hasta aqui*/
 }
 
 .fondo1{
-    background: #a8ff78;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding-bottom: 10px;
 }
 
-/*Agregar el estilo de video ()*/
+
 .video{
     
     padding-top: 30px;
@@ -213,21 +184,7 @@ margin-right: 20px;
         }
 
 
-
-
-
-
-
-
-
-        
-/* hasta esta parte*/
-
-/*agregar la parte de estilos del footer (ya act.)*/
 .footer{
-    background: #a8ff78;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 display: grid;
 grid-template-columns: repeat(2, 60px 20);
 grid-template-rows: repeat(2, 25px);
@@ -240,11 +197,8 @@ box-shadow: gray 5px 5px 5px 8px;
 margin-top: 60px;
 padding-bottom: 10px;
 }
-/*hasta aqui*/
 
 
-
-/*agregar este cambio (ya act.)*/
 .articleA{
 width: 80%;
 margin-left: auto;
@@ -258,22 +212,15 @@ font-size: 120%;
     font-size: 120%;
     }
 
-    /*hasta aqui*/
-
-
     .fondo_publi{
         width: 100%;
-        background: #a8ff78;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         padding-top: 20px;
         padding-bottom: 20px;
         margin-top: 25px;
     }
 
-
     .publicidad{
-        width: 30%;
+        width: 20%;
         background: white;
         margin-left: auto;
         margin-right: auto;
@@ -305,3 +252,4 @@ font-size: 120%;
     padding-left: 20px;
     
     }
+
