@@ -6,8 +6,8 @@
 
 html{
     background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 .header{
     width: 100%;
     height: 50px;
@@ -18,30 +18,27 @@ html{
     position: fixed;
     top: 0;
     color: #FC4914;
+    z-index: 10;
 }
 .header-p{
-display: flex;
-justify-content: space-around;
-   
+    display: flex;
+    justify-content: space-around;
 }
 .header-p img{
-padding-left: 2px;
-margin-right: 2px;
-padding-top: 3px;
+    padding-left: 2px;
+    margin-right: 2px;
+    padding-top: 3px;
 }
 .header p{
     padding-top: 11px;
     height: 40px;
     text-align: center;
-    font-size: 100%;
-    
+    font-size: 100%;   
 }
-
 .header-nav a{
-list-style: none;
-color: black;
-text-decoration: none;
-
+    list-style: none;
+    color: black;
+    text-decoration: none;
 }
 .header-nav li{
     width: 50px;
@@ -54,9 +51,6 @@ text-decoration: none;
     margin-right: 3px;
     border-radius: 3px;   
 }
-
-
-
 .titulo{
     margin-left: auto;
     margin-right: auto;
@@ -64,6 +58,7 @@ text-decoration: none;
     text-align: center;
     margin-top: 70px;
     padding-top: 25px;
+    font-size: 1.3rem;
 }
 
 .formulario{
@@ -75,16 +70,20 @@ text-decoration: none;
     margin-right: auto;
     box-shadow: gray 4px 4px 4px;
 }
-
+.titulitos-formulario{
+    font-size: 0.9rem;
+    padding: 5px;
+}
 .ingresarCuenta, .resultadoA, .resultadoAA{
     padding-top: 10px;
     padding-bottom: 25px;
     text-align: center;
+    color: #fff;
 }
-.ingresarCuenta, .resultadoAA{
+.ingresarCuenta{
     border-bottom: solid 0.5px #000;
 }
-.input1, .input2, .input3, .input4, .input5{
+.input1, .input2, .input3{
     width: 80%;
     height: 50px;
     box-shadow: gray 2px 2px 5px;
@@ -98,12 +97,15 @@ text-decoration: none;
 }
 .input1{
     background-color: #fff;
-    color: #000;
+    color: #FC4914;
     border-bottom: 0.3px solid #000;
+    font-weight: 800;
 }
 .Title{
     text-align: center;
     margin-top: 30px;
+    font-size: 1.3rem;
+    color: #FC4914;
 }
 .boton{
     color: #000;
@@ -116,7 +118,6 @@ text-decoration: none;
     border: none;
     border-radius: 3px;
 }
-
 .intrucciones{
     margin-top: 30px;
     margin-right: 10px;
@@ -125,11 +126,11 @@ text-decoration: none;
     width: 80%;
 }
 .intrucciones2{
-margin-left: auto;
-margin-right: auto;
-width: 80%;
-font-size: 120%;
-padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-size: 120%;
+    padding: 10px;
 }
 .intrucciones li{
     margin-left: 18px;
@@ -142,18 +143,17 @@ padding: 10px;
 .espacio{
     margin-top: 5px;
 }
-
 .boton_2{
-display: block;
-margin-top: 5px;    
-margin-left: calc(50% - 40px);
-background-color: #B8B3B3;
-color: #000;
-box-shadow: gray 4px 4px 4px;
-cursor: pointer;
-border: none;
-padding: 3px;
-border-radius: 3px;
+    display: block;
+    margin-top: 5px;    
+    margin-left: calc(50% - 40px);
+    background-color: #B8B3B3;
+    color: #000;
+    box-shadow: gray 4px 4px 4px;
+    cursor: pointer;
+    border: none;
+    padding: 3px;
+    border-radius: 3px;
 }
 .list{
     margin-left: calc(50% - 155px);
@@ -166,6 +166,7 @@ border-radius: 3px;
     border-bottom: 0.3px solid #000;
     border-radius: 5px;
     background-color: #F36B22;
+    color: #fff;
 }
 .informacion{
     margin-top: 35px;
@@ -178,135 +179,131 @@ border-radius: 3px;
     background-color: #000;
     color: #FC4914;
 }
-.informacion h3{
+.titulo-informacion, .titulo2-informacion, .titulo3-informacion{
+    margin-top: 20px;
     margin-bottom: 20px;
     width: 80%;
-margin-left: auto;
-margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.3rem;
+    text-align: center;
 }
-
 .fondo1{
     background-color: #000;
     padding-bottom: 10px;
     color: #FC4914;
 }
-.video{
-    
-    padding-top: 30px;
-    padding-bottom: 30px;
+.Pasos-informacion{
+    height: auto;
+    width: 80%;
+    max-width: 400px;
     border-radius: 5px;
-    background: white;
+    background: #fff;
     display: flex;
-    height: 320px;
-    width: 300px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
     margin-left: auto;
     margin-right: auto;
-    
+    margin-bottom: 20px;
+    border-radius: 8px;
 }
-.video video{
-    width: 275px;
-    height: 275px;
-    margin-left: 10px;
-    margin-right: 10px;
+.video-informacion{
+    height: auto;
+    width: 50%;
+    max-width: 400px;
+    border-radius: 5px;
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 8px; 
 }
-.video img{
-    width: 275px;
-    height: 275px;
-    margin-right: 5px;
+.img_Pasos-informacion{
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-right: 1px solid black;
 }
-    
-    .cantidad1{
-border: 1px solid black;
-border-radius: 5px;
-background: rgb(210, 210, 210);
-height: 18px;
-position: relative;
-bottom: 12px;
-right: 10px;
-
-}
-
+.div_Pasos-informacion{
+    width: 300px;
+    height: 100%;
+}    
 .footer{
-background-color: #000;
-color: #fff;
-display: grid;
-grid-template-columns: repeat(2, 60px 20);
-grid-template-rows: repeat(2, 25px);
-column-gap: 3px;
-row-gap: 3px;
-justify-items: center;
-align-items: center;
-justify-content: center;
-box-shadow: gray 5px 5px 5px 8px;
-margin-top: 60px;
-padding-bottom: 10px;
+    background-color: #000;
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, 60px 20);
+    grid-template-rows: repeat(2, 25px);
+    column-gap: 3px;
+    row-gap: 3px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    box-shadow: gray 5px 5px 5px 8px;
+    margin-top: 60px;
+    padding-bottom: 10px;
 }
 .articleA{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     font-size: 120%;
-    }
-    .articleB{
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 120%;
-        }
-.fondo_publi{
-    width: 100%;
-    background-color: #fff;
-
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: 25px;
 }
-
-.publicidad{
-    width: 90%;
-    background: #fff;
+.numero{
     border: 1px solid #000;
-    margin-left: auto;
-    margin-right: auto;
+    background: #F36B22;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    right: 10%;
+    box-shadow: gray 4px 4px 4px;
+    padding: 3px;
     border-radius: 5px;
-    
+    margin-top: 3px;
 }
-.imagen_publicidad{
-    width: 90%;
+.publicidad{
+    width: 100%;
+    height: auto;
+    background: #000;
+    margin-top: 50px;
+}
+.contenedor-image_publicidad{
+    width: 50%;
+    max-width: 250px;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 15px;
-    padding-left: 35px;
 }
-.parrafo_publicidad{
-    padding-top: 10px;
-    padding-bottom: 4px;
-    font-size: 70%;
-    text-align: center;
+.img-publicidad{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
 }
-.eliminar{
-    background: transparent;
-    border: solid 1px black;
-    width: 20px;
-    height: 20px;
+.p-publicidad{
+    color: #fff;
+    font-size: 0.7rem;
     text-align: center;
-    padding-bottom: 3px;
+    padding-bottom: 10px;
+}
+.cerrar-publicidad{
+    background: #fff;
+    padding: 3px;
     border-radius: 3px;
     cursor: pointer;
 }
-.padre_eliminar{
-padding-left: 20px;
-
+.contendedor-letras_publicidad{
+    display: flex;
+    justify-content: right;
+    padding: 10px;
 }
-
-
-
 
 
 
