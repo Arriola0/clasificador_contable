@@ -1453,1971 +1453,1233 @@ else if(informacion == cuenta129 || informacion == cuenta129Minuscula){
     document.registro.obtenerDato2.value = libro3;
 }
 //Depreciación mobiliario y equipo oficina
-else if(informacion === cuenta130){
+else if(informacion == cuenta130 || informacion == cuenta130Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta130Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Depreciación mobiliario y equipo sala de ventas
-else if(informacion === cuenta131){
+else if(informacion == cuenta131 || informacion == cuenta131Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta131Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Depreciación mobiliario y equipo
-else if(informacion === cuenta132){
+else if(informacion == cuenta132 || informacion == cuenta132Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta132Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Depreciación de cristalería
-else if(informacion === cuenta133){
+else if(informacion == cuenta133 || informacion == cuenta133Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta133Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Depreciación vehículos de reparto
-else if(informacion === cuenta134){
+else if(informacion == cuenta134 || informacion == cuenta134Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta134Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Depreciación vehículos de fábrica
-else if(informacion === cuenta135){
+else if(informacion == cuenta135 || informacion == cuenta135Minuscula){
     document.registro.obtenerDato.value = resultado5;
-    document.registro.obtenerDato2.value = libro3;
-}else if(informacion === cuenta135Minuscula){
-document.registro.obtenerDato.value = resultado5;
     document.registro.obtenerDato2.value = libro3;
 }
 //Depreciación vehículos oficina
-else if(informacion === cuenta136){
+else if(informacion == cuenta136 || informacion == cuenta136Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta136Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Depreciación vehículos sala de ventas
-else if(informacion === cuenta137){
+else if(informacion == cuenta137 || informacion == cuenta137Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta137Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Depreciación vehículos
-else if(informacion === cuenta138){
+else if(informacion == cuenta138 || informacion == cuenta138Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta138Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Depreciación acumulada de todo activo
-else if(informacion === cuenta139){
+else if(informacion == cuenta139 || informacion == cuenta139Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta139Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Derecho de llave
-else if(informacion === cuenta140){
+else if(informacion == cuenta140 || informacion == cuenta140Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta140Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Descuentos concedidos
-else if(informacion === cuenta141){
+else if(informacion == cuenta141 || informacion == cuenta141Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta141Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Descuentos sobre acciones
-else if(informacion === cuenta142){
+else if(informacion == cuenta142 || informacion == cuenta142Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta142Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Descuentos sobre ventas
-else if(informacion === cuenta143){
+else if(informacion == cuenta143 || informacion == cuenta143Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta143Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Descuentos sobre compras
-else if(informacion === cuenta144){
+else if(informacion == cuenta144 || informacion == cuenta144Minuscula){
     document.registro.obtenerDato.value = resultado3;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta144Minuscula){
-document.registro.obtenerDato.value = resultado3;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Descuentos percibidos
-else if(informacion === cuenta145){
+else if(informacion == cuenta145 || informacion == cuenta145Minuscula){
     document.registro.obtenerDato.value = resultado3;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta145Minuscula){
-document.registro.obtenerDato.value = resultado3;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Deudores
-else if(informacion === cuenta146){
+else if(informacion == cuenta146 || informacion == cuenta146Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta146Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Deudores diversos
-else if(informacion === cuenta147){
+else if(informacion == cuenta147 || informacion == cuenta147Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta147Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Deudores varios
-else if(informacion === cuenta148){
+else if(informacion == cuenta148 || informacion == cuenta148Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta148Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Devoluciones y rebajas sobre ventas
-else if(informacion === cuenta149){
+else if(informacion == cuenta149 || informacion == cuenta149Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta149Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Devoluciones y rebajas sobre compras
-else if(informacion === cuenta150){
+else if(informacion == cuenta150 || informacion == cuenta150Minuscula){
     document.registro.obtenerDato.value = resultado3;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta150Minuscula){
-document.registro.obtenerDato.value = resultado3;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Devoluciones y rebajas sobre compras de materia prima
-else if(informacion === cuenta151){
+else if(informacion == cuenta151 || informacion == cuenta151Minuscula){
     document.registro.obtenerDato.value = resultado6;
-    document.registro.obtenerDato2.value = libro3;
-}else if(informacion === cuenta151Minuscula){
-document.registro.obtenerDato.value = resultado6;
     document.registro.obtenerDato2.value = libro3;
 }
 //Dividendos percibidos
-else if(informacion === cuenta152){
+else if(informacion == cuenta152 || informacion == cuenta152Minuscula){
     document.registro.obtenerDato.value = resultado3;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta152Minuscula){
-document.registro.obtenerDato.value = resultado3;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Dividendos no retirados o no pagados
-else if(informacion === cuenta153){
+else if(informacion == cuenta153 || informacion == cuenta153Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta153Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Dividendos no retirados
-else if(informacion === cuenta154){
+else if(informacion == cuenta154 || informacion == cuenta154Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta154Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Dividendos no pagados
-else if(informacion === cuenta155){
+else if(informacion == cuenta155 || informacion == cuenta155Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta155Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Dividendos por pagar
-else if(informacion === cuenta156){
+else if(informacion == cuenta156 || informacion == cuenta156Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta156Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Dividendos ganados
-else if(informacion === cuenta157){
+else if(informacion == cuenta157 || informacion == cuenta157Minuscula){
     document.registro.obtenerDato.value = resultado3;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta157Minuscula){
-document.registro.obtenerDato.value = resultado3;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Dividendos por cobrar
-else if(informacion === cuenta159){
+else if(informacion == cuenta159 || informacion == cuenta159Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta159Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Divisas adquiridas
-else if(informacion === cuenta160){
+else if(informacion == cuenta160 || informacion == cuenta160Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta160Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Documentos por cobrar
-else if(informacion === cuenta161){
+else if(informacion == cuenta161 || informacion == cuenta161Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta161Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Documentos por pagar
-else if(informacion === cuenta162){
+else if(informacion == cuenta162 || informacion == cuenta162Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta162Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Documentos endosados
-else if(informacion === cuenta163){
+else if(informacion == cuenta163 || informacion == cuenta163Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta163Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Documentos descontados
-else if(informacion === cuenta164){
+else if(informacion == cuenta164 || informacion == cuenta164Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta164Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Documentos por cobrar descontados
-else if(informacion === cuenta165){
+else if(informacion == cuenta165 || informacion == cuenta165Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta165Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Documentos por pagar a largo plazo
-else if(informacion === cuenta166){
+else if(informacion == cuenta166 || informacion == cuenta166Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta166Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Donativos
-else if(informacion === cuenta167){
+else if(informacion == cuenta167 || informacion == cuenta167Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta167Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Donativos pagados
-else if(informacion === cuenta168){
+else if(informacion == cuenta168 || informacion == cuenta168Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta168Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Donativos por pagar
-else if(informacion === cuenta169){
+else if(informacion == cuenta169 || informacion == cuenta169Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta169Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Donativos percibidos
-else if(informacion === cuenta170){
+else if(informacion == cuenta170 || informacion == cuenta170Minuscula){
     document.registro.obtenerDato.value = resultado3;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta170Minuscula){
-document.registro.obtenerDato.value = resultado3;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Edificios
-else if(informacion === cuenta171){
+else if(informacion == cuenta171 || informacion == cuenta171Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta171Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Efectos descontados
-else if(informacion === cuenta172){
+else if(informacion == cuenta172 || informacion == cuenta172Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta172Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Efectos endosados
-else if(informacion === cuenta173){
+else if(informacion == cuenta173 || informacion == cuenta173Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta173Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Efectos por cobrar
-else if(informacion === cuenta174){
+else if(informacion == cuenta174 || informacion == cuenta174Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta174Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Efectos por pagar
-else if(informacion === cuenta175){
+else if(informacion == cuenta175 || informacion == cuenta175Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta175Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Efectos por pagar a largo plazo
-else if(informacion === cuenta176){
+else if(informacion == cuenta176 || informacion == cuenta176Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta176Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Energía eléctrica de fábrica
-else if(informacion === cuenta177){
+else if(informacion == cuenta177 || informacion == cuenta177Minuscula){
     document.registro.obtenerDato.value = resultado5;
-    document.registro.obtenerDato2.value = libro3;
-}else if(informacion === cuenta177Minuscula){
-document.registro.obtenerDato.value = resultado5;
     document.registro.obtenerDato2.value = libro3;
 }
 //Energía eléctrica de oficina
-else if(informacion === cuenta178){
+else if(informacion == cuenta178 || informacion == cuenta178Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta178Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Energía eléctrica sala de ventas
-else if(informacion === cuenta179){
+else if(informacion == cuenta179 || informacion == cuenta179Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta179Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Energía eléctrica
-else if(informacion === cuenta180){
+else if(informacion == cuenta180 || informacion == cuenta180Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta180Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Envases en departamento de producción
-else if(informacion === cuenta180_1){
+else if(informacion == cuenta180_1 || informacion == cuenta180_1Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta180_1Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Equipo de computación
-else if(informacion === cuenta181){
+else if(informacion == cuenta181 || informacion == cuenta181Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta181Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Equipo de reparto
-else if(informacion === cuenta182){
+else if(informacion == cuenta182 || informacion == cuenta182Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta182Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Especies fiscales
-else if(informacion === cuenta183){
+else if(informacion == cuenta183 || informacion == cuenta183Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta183Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Estimación para cuentas incobrables
-else if(informacion === cuenta184){
+else if(informacion == cuenta184 || informacion == cuenta184Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta184Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Estimación para cuentas malas
-else if(informacion === cuenta185){
+else if(informacion == cuenta185 || informacion == cuenta185Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta185Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Estimación para cuentas dudosas
-else if(informacion === cuenta186){
+else if(informacion == cuenta186 || informacion == cuenta186Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta186Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Estimación para cuentas de difícil cobro
-else if(informacion === cuenta187){
+else if(informacion == cuenta187 || informacion == cuenta187Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta187Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Faltante de caja
-else if(informacion === cuenta188){
+else if(informacion == cuenta188 || informacion == cuenta188Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta188Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Fletes sobre compras
-else if(informacion === cuenta189){
+else if(informacion == cuenta189 || informacion == cuenta189Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta189Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Fletes sobre compras de materia prima
-else if(informacion === cuenta190){
+else if(informacion == cuenta190 || informacion == cuenta190Minuscula){
     document.registro.obtenerDato.value = resultado5;
-    document.registro.obtenerDato2.value = libro3;
-}else if(informacion === cuenta190Minuscula){
-document.registro.obtenerDato.value = resultado5;
     document.registro.obtenerDato2.value = libro3;
 }
 //Fletes
-else if(informacion === cuenta191){
+else if(informacion == cuenta191 || informacion == cuenta191Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta191Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Fórmulas patentadas
-else if(informacion === cuenta192){
+else if(informacion == cuenta192 || informacion == cuenta192Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta192Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Ganancia antes del impuesto
-else if(informacion === cuenta193){
+else if(informacion == cuenta193 || informacion == cuenta193Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta193Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Ganancia antes de impuestos y reservas
-else if(informacion === cuenta194){
+else if(informacion == cuenta194 || informacion == cuenta194Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta194Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Ganancia antes de reservas
-else if(informacion === cuenta195){
+else if(informacion == cuenta195 || informacion == cuenta195Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta195Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Ganancia después del impuesto
-else if(informacion === cuenta196){
+else if(informacion == cuenta196 || informacion == cuenta196Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta196Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Ganancia después del impuesto y reservas
-else if(informacion === cuenta197){
+else if(informacion == cuenta197 || informacion == cuenta197Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta197Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Ganancia después de reservas
-else if(informacion === cuenta198){
+else if(informacion == cuenta198 || informacion == cuenta198Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta198Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Ganancia en negociación de activos
-else if(informacion === cuenta199){
+else if(informacion == cuenta199 || informacion == cuenta199Minuscula){
     document.registro.obtenerDato.value = resultado3;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta199Minuscula){
-document.registro.obtenerDato.value = resultado3;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Ganancia en venta de activos
-else if(informacion === cuenta200){
+else if(informacion == cuenta200 || informacion == cuenta200Minuscula){
     document.registro.obtenerDato.value = resultado3;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta200Minuscula){
-document.registro.obtenerDato.value = resultado3;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Gastos de organización
-else if(informacion === cuenta201){
+else if(informacion == cuenta201 || informacion == cuenta201Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta201Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Gastos de instalación
-else if(informacion === cuenta202){
+else if(informacion == cuenta202 || informacion == cuenta202Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta202Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Gastos de instalación fábrica
-else if(informacion === cuenta203){
+else if(informacion == cuenta203 || informacion == cuenta203Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta203Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Gastos diversos de fábrica
-else if(informacion === cuenta204){
+else if(informacion == cuenta204 || informacion == cuenta204Minuscula){
     document.registro.obtenerDato.value = resultado5;
-    document.registro.obtenerDato2.value = libro3;
-}else if(informacion === cuenta204Minuscula){
-document.registro.obtenerDato.value = resultado5;
     document.registro.obtenerDato2.value = libro3;
 }
 //Gastos diversos de administración
-else if(informacion === cuenta205){
+else if(informacion == cuenta205 || informacion == cuenta205Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta205Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Gastos diversos sala de ventas
-else if(informacion === cuenta206){
+else if(informacion == cuenta206 || informacion == cuenta206Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta206Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Gastos misceláneos de fábrica
-else if(informacion === cuenta207){
+else if(informacion == cuenta207 || informacion == cuenta207Minuscula){
     document.registro.obtenerDato.value = resultado5;
-    document.registro.obtenerDato2.value = libro3;
-}else if(informacion === cuenta207Minuscula){
-document.registro.obtenerDato.value = resultado5;
     document.registro.obtenerDato2.value = libro3;
 }
 //Gastos misceláneos de oficina
-else if(informacion === cuenta208){
+else if(informacion == cuenta208 || informacion == cuenta208Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta208Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Gastos misceláneos sala de ventas
-else if(informacion === cuenta209){
+else if(informacion == cuenta209 || informacion == cuenta209Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta209Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Gastos publicitarios
-else if(informacion === cuenta210){
+else if(informacion == cuenta210 || informacion == cuenta210Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta210Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Gastos sobre compras
-else if(informacion === cuenta212){
+else if(informacion == cuenta212 || informacion == cuenta212Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta212Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Gastos sobre compras de materia prima
-else if(informacion === cuenta213){
+else if(informacion == cuenta213 || informacion == cuenta213Minuscula){
     document.registro.obtenerDato.value = resultado5;
-    document.registro.obtenerDato2.value = libro3;
-}else if(informacion === cuenta213Minuscula){
-document.registro.obtenerDato.value = resultado5;
     document.registro.obtenerDato2.value = libro3;
 }
 //Grasas y aceites
-else if(informacion === cuenta214){
+else if(informacion == cuenta214 || informacion == cuenta214Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta214Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Grasas y aceites consumidos fábrica
-else if(informacion === cuenta215){
+else if(informacion == cuenta215 || informacion == cuenta215Minuscula){
     document.registro.obtenerDato.value = resultado5;
-    document.registro.obtenerDato2.value = libro3;
-}else if(informacion === cuenta215Minuscula){
-document.registro.obtenerDato.value = resultado5;
     document.registro.obtenerDato2.value = libro3;
 }
 //Grasas y aceites consumidos sala de ventas
-else if(informacion === cuenta216){
+else if(informacion == cuenta216 || informacion == cuenta216Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta216Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Herramientas
-else if(informacion === cuenta217){
+else if(informacion == cuenta217 || informacion == cuenta217Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta217Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Hipotecas
-else if(informacion === cuenta218){
+else if(informacion == cuenta218 || informacion == cuenta218Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta218Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //IGSS por pagar
-else if(informacion === cuenta219){
+else if(informacion == cuenta219 || informacion == cuenta219Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta219Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //IGSS laboral
-else if(informacion === cuenta220){
+else if(informacion == cuenta220 || informacion == cuenta220Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta220Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //IGSS
-else if(informacion === cuenta222){
+else if(informacion == cuenta222 || informacion == cuenta222Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta222Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Impuestos aduanales sobre compras
-else if(informacion === cuenta223){
+else if(informacion == cuenta223 || informacion == cuenta223Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta223Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Impuestos aduanales sobre compras de materia prima
-else if(informacion === cuenta224){
+else if(informacion == cuenta224 || informacion == cuenta224Minuscula){
     document.registro.obtenerDato.value = resultado5;
-    document.registro.obtenerDato2.value = libro3;
-}else if(informacion === cuenta224Minuscula){
-document.registro.obtenerDato.value = resultado5;
     document.registro.obtenerDato2.value = libro3;
 }
 //Impuestos y contribuciones fábrica
-else if(informacion === cuenta225){
+else if(informacion == cuenta225 || informacion == cuenta225Minuscula){
     document.registro.obtenerDato.value = resultado5;
-    document.registro.obtenerDato2.value = libro3;
-}else if(informacion === cuenta225Minuscula){
-document.registro.obtenerDato.value = resultado5;
     document.registro.obtenerDato2.value = libro3;
 }
 //Impuestos y contribuciones administración
-else if(informacion === cuenta226){
+else if(informacion == cuenta226 || informacion == cuenta226Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta226Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Impuestos y contribuciones sala de ventas
-else if(informacion === cuenta227){
+else if(informacion == cuenta227 || informacion == cuenta227Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta227Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Impuestos sobre inmuebles fábrica
-else if(informacion === cuenta228){
+else if(informacion == cuenta228 || informacion == cuenta228Minuscula){
     document.registro.obtenerDato.value = resultado5;
-    document.registro.obtenerDato2.value = libro3;
-}else if(informacion === cuenta228Minuscula){
-document.registro.obtenerDato.value = resultado5;
     document.registro.obtenerDato2.value = libro3;
 }
 //Impuestos sobre inmuebles sala de ventas
-else if(informacion === cuenta229){
+else if(informacion == cuenta229 || informacion == cuenta229Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta229Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Impuestos sobre inmuebles oficina
-else if(informacion === cuenta230){
+else if(informacion == cuenta230 || informacion == cuenta230Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta230Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Impuestos y contribuciones por pagar
-else if(informacion === cuenta231){
+else if(informacion == cuenta231 || informacion == cuenta231Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta231Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Impuesto sobre inmuebles por pagar
-else if(informacion === cuenta232){
+else if(informacion == cuenta232 || informacion == cuenta232Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta232Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Impuesto sobre la renta por pagar
-else if(informacion === cuenta233){
+else if(informacion == cuenta233 || informacion == cuenta233Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta233Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Impuesto sobre la renta pagado por anticipado
-else if(informacion === cuenta234){
+else if(informacion == cuenta234 || informacion == cuenta234Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta234Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Impuesto a las empresas mercantiles pagado por anticipado
-else if(informacion === cuenta235){
+else if(informacion == cuenta235 || informacion == cuenta235Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta235Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Impuesto sobre la renta retenido
-else if(informacion === cuenta236){
+else if(informacion == cuenta236 || informacion == cuenta236Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta236Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Indemnizaciones fábrica
-else if(informacion === cuenta237){
+else if(informacion == cuenta237 || informacion == cuenta237Minuscula){
     document.registro.obtenerDato.value = resultado5;
-    document.registro.obtenerDato2.value = libro3;
-}else if(informacion === cuenta237Minuscula){
-document.registro.obtenerDato.value = resultado5;
     document.registro.obtenerDato2.value = libro3;
 }
 //Indemnizaciones administración
-else if(informacion === cuenta238){
+else if(informacion == cuenta238 || informacion == cuenta238Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta238Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Indemnizaciones sala de ventas
-else if(informacion === cuenta239){
+else if(informacion == cuenta239 || informacion == cuenta239Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta239Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Inmuebles
-else if(informacion === cuenta240){
+else if(informacion == cuenta240 || informacion == cuenta240Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta240Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Intereses gasto
-else if(informacion === cuenta241){
+else if(informacion == cuenta241 || informacion == cuenta241Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta241Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Intereses por cobrar
-else if(informacion === cuenta242){
+else if(informacion == cuenta242 || informacion == cuenta242Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta242Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Intereses percibidos no devengados
-else if(informacion === cuenta243){
+else if(informacion == cuenta243 || informacion == cuenta243Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta243Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Intereses cobrados por anticipado
-else if(informacion === cuenta244){
+else if(informacion == cuenta244 || informacion == cuenta244Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta244Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Intereses pagados por anticipado
-else if(informacion === cuenta245){
+else if(informacion == cuenta245 || informacion == cuenta245Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta245Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Intereses devengados
-else if(informacion === cuenta246){
+else if(informacion == cuenta246 || informacion == cuenta246Minuscula){
     document.registro.obtenerDato.value = resultado3;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta246Minuscula){
-document.registro.obtenerDato.value = resultado3;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Intereses ganados
-else if(informacion === cuenta247){
+else if(informacion == cuenta247 || informacion == cuenta247Minuscula){
     document.registro.obtenerDato.value = resultado3;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta247Minuscula){
-document.registro.obtenerDato.value = resultado3;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Intereses producto
-else if(informacion === cuenta248){
+else if(informacion == cuenta248 || informacion == cuenta248Minuscula){
     document.registro.obtenerDato.value = resultado3;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta248Minuscula){
-document.registro.obtenerDato.value = resultado3;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Intereses por pagar
-else if(informacion === cuenta249){
+else if(informacion == cuenta249 || informacion == cuenta249Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta249Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Inventario inicial de mercaderías
-else if(informacion === cuenta250){
+else if(informacion == cuenta250 || informacion == cuenta250Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta250Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Inventario inicial de artículos en proceso
-else if(informacion === cuenta251){
+else if(informacion == cuenta251 || informacion == cuenta251Minuscula){
     document.registro.obtenerDato.value = resultado5;
-    document.registro.obtenerDato2.value = libro3;
-}else if(informacion === cuenta251Minuscula){
-document.registro.obtenerDato.value = resultado5;
     document.registro.obtenerDato2.value = libro3;
 }
 //Inventario inicial de artículos terminados
-else if(informacion === cuenta252){
+else if(informacion == cuenta252 || informacion == cuenta252Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta252Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Inventario inicial de materia prima
-else if(informacion === cuenta253){
+else if(informacion == cuenta253 || informacion == cuenta253Minuscula){
     document.registro.obtenerDato.value = resultado5;
-    document.registro.obtenerDato2.value = libro3;
-}else if(informacion === cuenta253Minuscula){
-document.registro.obtenerDato.value = resultado5;
     document.registro.obtenerDato2.value = libro3;
 }
 //Inventario final de mercaderías
-else if(informacion === cuenta254){
+else if(informacion == cuenta254 || informacion == cuenta254Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta254Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Inventario final de artículos en proceso
-else if(informacion === cuenta255){
+else if(informacion == cuenta255 || informacion == cuenta255Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta255Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Inventario final de artículos terminados
-else if(informacion === cuenta256){
+else if(informacion == cuenta256 || informacion == cuenta256Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta256Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Inventario final de matería prima
-else if(informacion === cuenta257){
+else if(informacion == cuenta257 || informacion == cuenta257Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta257Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Inversiones
-else if(informacion === cuenta258){
+else if(informacion == cuenta258 || informacion == cuenta258Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta258Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Inversiones en valores
-else if(informacion === cuenta259){
+else if(informacion == cuenta259 || informacion == cuenta259Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta259Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //IVA acreditable
-else if(informacion === cuenta260){
+else if(informacion == cuenta260 || informacion == cuenta260Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta260Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //IVA por acreditar
-else if(informacion === cuenta261){
+else if(informacion == cuenta261 || informacion == cuenta261Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta261Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //IVA por cobrar
-else if(informacion === cuenta262){
+else if(informacion == cuenta262 || informacion == cuenta262Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta262Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //IVA deudor
-else if(informacion === cuenta263){
+else if(informacion == cuenta263 || informacion == cuenta263Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta263Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //IVA debitable
-else if(informacion === cuenta264){
+else if(informacion == cuenta264 || informacion == cuenta264Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta264Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //IVA por debitar
-else if(informacion === cuenta265){
+else if(informacion == cuenta265 || informacion == cuenta265Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta265Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //IVA por pagar
-else if(informacion === cuenta266){
+else if(informacion == cuenta266 || informacion == cuenta266Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta266Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //IVA acreedor
-else if(informacion === cuenta267){
+else if(informacion == cuenta267 || informacion == cuenta267Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta267Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Mano de obra directa
-else if(informacion === cuenta268){
+else if(informacion == cuenta268 || informacion == cuenta268Minuscula){
     document.registro.obtenerDato.value = resultado5;
-    document.registro.obtenerDato2.value = libro3;
-}else if(informacion === cuenta268Minuscula){
-document.registro.obtenerDato.value = resultado5;
     document.registro.obtenerDato2.value = libro3;
 }
 //Mano de obra indirecta
-else if(informacion === cuenta269){
+else if(informacion == cuenta269 || informacion == cuenta269Minuscula){
     document.registro.obtenerDato.value = resultado5;
-    document.registro.obtenerDato2.value = libro3;
-}else if(informacion === cuenta269Minuscula){
-document.registro.obtenerDato.value = resultado5;
     document.registro.obtenerDato2.value = libro3;
 }
 //Maquinaria
-else if(informacion === cuenta270){
+else if(informacion == cuenta270 || informacion == cuenta270Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta270Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Marcas y patentes
-else if(informacion === cuenta271){
+else if(informacion == cuenta271 || informacion == cuenta271Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta271Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Materia prima inicial
-else if(informacion === cuenta272){
+else if(informacion == cuenta272 || informacion == cuenta272Minuscula){
     document.registro.obtenerDato.value = resultado5;
-    document.registro.obtenerDato2.value = libro3;
-}else if(informacion === cuenta272Minuscula){
-document.registro.obtenerDato.value = resultado5;
     document.registro.obtenerDato2.value = libro3;
 }
 //Materia prima final
-else if(informacion === cuenta273){
+else if(informacion == cuenta273 || informacion == cuenta273Minuscula){
     document.registro.obtenerDato.value = resultado6;
-    document.registro.obtenerDato2.value = libro3;
-}else if(informacion === cuenta273Minuscula){
-document.registro.obtenerDato.value = resultado6;
     document.registro.obtenerDato2.value = libro3;
 }
 //Materia prima estropeada
-else if(informacion === cuenta274){
+else if(informacion == cuenta274 || informacion == cuenta274Minuscula){
     document.registro.obtenerDato.value = resultado5;
-    document.registro.obtenerDato2.value = libro3;
-}else if(informacion === cuenta274Minuscula){
-document.registro.obtenerDato.value = resultado5;
     document.registro.obtenerDato2.value = libro3;
 }
 //Materia prima inservible
-else if(informacion === cuenta275){
+else if(informacion == cuenta275 || informacion == cuenta275Minuscula){
     document.registro.obtenerDato.value = resultado5;
-    document.registro.obtenerDato2.value = libro3;
-}else if(informacion === cuenta275Minuscula){
-document.registro.obtenerDato.value = resultado5;
     document.registro.obtenerDato2.value = libro3;
 }
 //Materia prima destruida
-else if(informacion === cuenta276){
+else if(informacion == cuenta276 || informacion == cuenta276Minuscula){
     document.registro.obtenerDato.value = resultado5;
-    document.registro.obtenerDato2.value = libro3;
-}else if(informacion === cuenta276Minuscula){
-document.registro.obtenerDato.value = resultado5;
     document.registro.obtenerDato2.value = libro3;
 }
 //Materia prima en aduana
-else if(informacion === cuenta277){
+else if(informacion == cuenta277 || informacion == cuenta277Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta277Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Materia prima en tránsito
-else if(informacion === cuenta278){
+else if(informacion == cuenta278 || informacion == cuenta278Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta278Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Material de empaque
-else if(informacion === cuenta279){
+else if(informacion == cuenta279 || informacion == cuenta279Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta279Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Material de empaque consumido
-else if(informacion === cuenta280){
+else if(informacion == cuenta280 || informacion == cuenta280Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta280Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Material de empaque consumido fábrica
-else if(informacion === cuenta281){
+else if(informacion == cuenta281 || informacion == cuenta281Minuscula){
     document.registro.obtenerDato.value = resultado5;
-    document.registro.obtenerDato2.value = libro3;
-}else if(informacion === cuenta281Minuscula){
-document.registro.obtenerDato.value = resultado5;
     document.registro.obtenerDato2.value = libro3;
 }
 //Mercaderías enviadas en consignación
-else if(informacion === cuenta282){
+else if(informacion == cuenta282 || informacion == cuenta282Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta282Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Mercaderías inicial
-else if(informacion === cuenta283){
+else if(informacion == cuenta283 || informacion == cuenta283Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta283Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Mercaderías final
-else if(informacion === cuenta284){
+else if(informacion == cuenta284 || informacion == cuenta284Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta284Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Mercaderías en tránsito o en camino
-else if(informacion === cuenta285){
+else if(informacion == cuenta285 || informacion == cuenta285Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta285Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Mercaderías recibidas en consignación
-else if(informacion === cuenta286){
+else if(informacion == cuenta286 || informacion == cuenta286Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta286Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Mercaderías en aduana
-else if(informacion === cuenta287){
+else if(informacion == cuenta287 || informacion == cuenta287Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta287Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Mercadeías
-else if(informacion === cuenta288){
+else if(informacion == cuenta288 || informacion == cuenta288Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta288Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Mobiliario y equipo
-else if(informacion === cuenta289){
+else if(informacion == cuenta289 || informacion == cuenta289Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta289Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Multas y recargos
-else if(informacion === cuenta290){
+else if(informacion == cuenta290 || informacion == cuenta290Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta290Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Mercaderías ajenas
-else if(informacion === cuenta291){
+else if(informacion == cuenta291 || informacion == cuenta291Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta291Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Papelería y utiles
-else if(informacion === cuenta291_1){
+else if(informacion == cuenta291_1 || informacion == cuenta291_1Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta291_1Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Papelería y utiles consumidos
-else if(informacion === cuenta292){
+else if(informacion == cuenta292 || informacion == cuenta292Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta292Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Patentes
-else if(informacion === cuenta293){
+else if(informacion == cuenta293 || informacion == cuenta293Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta293Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Pérdidas acumuladas
-else if(informacion === cuenta294){
+else if(informacion == cuenta294 || informacion == cuenta294Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta294Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Pérdida de ejercicios anteriores
-else if(informacion === cuenta295){
+else if(informacion == cuenta295 || informacion == cuenta295Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta295Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Pérdida del ejercicio
-else if(informacion === cuenta296){
+else if(informacion == cuenta296 || informacion == cuenta296Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta296Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Pérdida en negociación de activos
-else if(informacion === cuenta297){
+else if(informacion == cuenta297 || informacion == cuenta297Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta297Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Pérdida en venta de activos
-else if(informacion === cuenta298){
+else if(informacion == cuenta298 || informacion == cuenta298Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta298Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Premios de lotería
-else if(informacion === cuenta299){
+else if(informacion == cuenta299 || informacion == cuenta299Minuscula){
     document.registro.obtenerDato.value = resultado3;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta299Minuscula){
-document.registro.obtenerDato.value = resultado3;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Prendas en garantía
-else if(informacion === cuenta300){
+else if(informacion == cuenta300 || informacion == cuenta300Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta300Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Prestaciones laborales fábrica
-else if(informacion === cuenta301){
+else if(informacion == cuenta301 || informacion == cuenta301Minuscula){
     document.registro.obtenerDato.value = resultado5;
-    document.registro.obtenerDato2.value = libro3;
-}else if(informacion === cuenta301Minuscula){
-document.registro.obtenerDato.value = resultado5;
     document.registro.obtenerDato2.value = libro3;
 }
 //Prestaciones laborales de administración
-else if(informacion === cuenta302){
+else if(informacion == cuenta302 || informacion == cuenta302Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta302Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Prestaciones laborales sala de ventas
-else if(informacion === cuenta303){
+else if(informacion == cuenta303 || informacion == cuenta303Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta303Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Préstamos bancarios
-else if(informacion === cuenta304){
+else if(informacion == cuenta304 || informacion == cuenta304Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta304Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Primas de seguro
-else if(informacion === cuenta305){
+else if(informacion == cuenta305 || informacion == cuenta305Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta305Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Primas de seguro vencidas
-else if(informacion === cuenta306){
+else if(informacion == cuenta306 || informacion == cuenta306Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta306Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Primas de seguro vencidas fábrica
-else if(informacion === cuenta307){
+else if(informacion == cuenta307 || informacion == cuenta307Minuscula){
     document.registro.obtenerDato.value = resultado5;
-    document.registro.obtenerDato2.value = libro3;
-}else if(informacion === cuenta307Minuscula){
-document.registro.obtenerDato.value = resultado5;
     document.registro.obtenerDato2.value = libro3;
 }
 //Primas de seguro vencidas administración
-else if(informacion === cuenta308){
+else if(informacion == cuenta308 || informacion == cuenta308Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta308Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Primas de seguro vencidas sala de ventas
-else if(informacion === cuenta309){
+else if(informacion == cuenta309 || informacion == cuenta309Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta309Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Primas de seguro no vencidas
-else if(informacion === cuenta310){
+else if(informacion == cuenta310 || informacion == cuenta310Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta310Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Primas sobre acciones
-else if(informacion === cuenta311){
+else if(informacion == cuenta311 || informacion == cuenta311Minuscula){
     document.registro.obtenerDato.value = resultado3;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta311Minuscula){
-document.registro.obtenerDato.value = resultado3;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Productos percibidos no devengados
-else if(informacion === cuenta312){
+else if(informacion == cuenta312 || informacion == cuenta312Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta312Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Productos por cobrar
-else if(informacion === cuenta313){
+else if(informacion == cuenta313 || informacion == cuenta313Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta313Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Propaganda
-else if(informacion === cuenta314){
+else if(informacion == cuenta314 || informacion == cuenta314Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta314Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Proveedores
-else if(informacion === cuenta315){
+else if(informacion == cuenta315 || informacion == cuenta315Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta315Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Proveeduría
-else if(informacion === cuenta316){
+else if(informacion == cuenta316 || informacion == cuenta316Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta316Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Provisión para cuentas incobrables
-else if(informacion === cuenta317){
+else if(informacion == cuenta317 || informacion == cuenta317Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta317Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Publicidad
-else if(informacion === cuenta318){
+else if(informacion == cuenta318 || informacion == cuenta318Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta318Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Propaganda pagada por anticipado
-else if(informacion === cuenta319){
+else if(informacion == cuenta319 || informacion == cuenta319Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta319Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Publicidad pagada por anticipado
-else if(informacion === cuenta320){
+else if(informacion == cuenta320 || informacion == cuenta320Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta320Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Recuperación de créditos
-else if(informacion === cuenta321){
+else if(informacion == cuenta321 || informacion == cuenta321Minuscula){
     document.registro.obtenerDato.value = resultado3;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta321Minuscula){
-document.registro.obtenerDato.value = resultado3;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Regalías
-else if(informacion === cuenta322){
+else if(informacion == cuenta322 || informacion == cuenta322Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta322Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Regalías percibidas
-else if(informacion === cuenta323){
+else if(informacion == cuenta323 || informacion == cuenta323Minuscula){
     document.registro.obtenerDato.value = resultado3;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta323Minuscula){
-document.registro.obtenerDato.value = resultado3;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Renombre comercial
-else if(informacion === cuenta324){
+else if(informacion == cuenta324 || informacion == cuenta324Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta324Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Reparación y mantenimiento de maquinaria
-else if(informacion === cuenta325){
+else if(informacion == cuenta325 || informacion == cuenta325Minuscula){
     document.registro.obtenerDato.value = resultado5;
-    document.registro.obtenerDato2.value = libro3;
-}else if(informacion === cuenta325Minuscula){
-document.registro.obtenerDato.value = resultado5;
     document.registro.obtenerDato2.value = libro3;
 }
 //Reparación y mantenimiento de vehículos
-else if(informacion === cuenta326){
+else if(informacion == cuenta326 || informacion == cuenta326Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta326Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Repuestos y accesorios
-else if(informacion === cuenta327){
+else if(informacion == cuenta327 || informacion == cuenta327Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta327Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Repuestos y accesorios consumidos
-else if(informacion === cuenta328){
+else if(informacion == cuenta328 || informacion == cuenta328Minuscula){
     document.registro.obtenerDato.value = resultado5;
-    document.registro.obtenerDato2.value = libro3;
-}else if(informacion === cuenta328Minuscula){
-document.registro.obtenerDato.value = resultado5;
     document.registro.obtenerDato2.value = libro3;
 }
 //Reserva legal
-else if(informacion === cuenta329){
+else if(informacion == cuenta329 || informacion == cuenta329Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta329Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Reserva para cuentas incobrables
-else if(informacion === cuenta330){
+else if(informacion == cuenta330 || informacion == cuenta330Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta330Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Reserva para cuentas malas
-else if(informacion === cuenta331){
+else if(informacion == cuenta331 || informacion == cuenta331Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta331Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Reserva para cuentas morosas
-else if(informacion === cuenta332){
+else if(informacion == cuenta332 || informacion == cuenta332Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta332Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Reserva para cuentas de difícil cobro
-else if(informacion === cuenta333){
+else if(informacion == cuenta333 || informacion == cuenta333Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta333Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Reserva para indemnizaciones
-else if(informacion === cuenta334){
+else if(informacion == cuenta334 || informacion == cuenta334Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta334Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Retenciones laborales
-else if(informacion === cuenta335){
+else if(informacion == cuenta335 || informacion == cuenta335Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta335Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Retención del impuesto sobre la renta
-else if(informacion === cuenta336){
+else if(informacion == cuenta336 || informacion == cuenta336Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta336Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Retención ISR
-else if(informacion === cuenta337){
+else if(informacion == cuenta337 || informacion == cuenta337Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta337Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Seguros
-else if(informacion === cuenta338){
+else if(informacion == cuenta338 || informacion == cuenta338Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta338Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Seguros anticipados
-else if(informacion === cuenta339){
+else if(informacion == cuenta339 || informacion == cuenta339Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta339Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Seguros pagados por anticipado
-else if(informacion === cuenta340){
+else if(informacion == cuenta340 || informacion == cuenta340Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta340Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Seguros no vencidos
-else if(informacion === cuenta341){
+else if(informacion == cuenta341 || informacion == cuenta341Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta341Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Seguros vencidos
-else if(informacion === cuenta342){
+else if(informacion == cuenta342 || informacion == cuenta342Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta342Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Seguros vencidos de fábrica
-else if(informacion === cuenta343){
+else if(informacion == cuenta343 || informacion == cuenta343Minuscula){
     document.registro.obtenerDato.value = resultado5;
-    document.registro.obtenerDato2.value = libro3;
-}else if(informacion === cuenta343Minuscula){
-document.registro.obtenerDato.value = resultado5;
     document.registro.obtenerDato2.value = libro3;
 }
 //Seguros vencidos de administración
-else if(informacion === cuenta344){
+else if(informacion == cuenta344 || informacion == cuenta344Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta344Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Seguros vencidos sala de ventas
-else if(informacion === cuenta345){
+else if(informacion == cuenta345 || informacion == cuenta345Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta345Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Señor x cuenta personal
-else if(informacion === cuenta346){
+else if(informacion == cuenta346 || informacion == cuenta346Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta346Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Señor x cuenta particular
-else if(informacion === cuenta347){
+else if(informacion == cuenta347 || informacion == cuenta347Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta347Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Socio x cuenta personal deudor
-else if(informacion === cuenta348){
+else if(informacion == cuenta348 || informacion == cuenta348Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta348Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Socio x cuenta personal acreedor
-else if(informacion === cuenta348_1){
+else if(informacion == cuenta348_1 || informacion == cuenta348_1Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta348_1Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Socio x cuenta particular deudor
-else if(informacion === cuenta349){
+else if(informacion == cuenta349 || informacion == cuenta349Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta349Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Socio x cuenta particular acreedor
-else if(informacion === cuenta349_1){
+else if(informacion == cuenta349_1 || informacion == cuenta349_1Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta349_1Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Socio x cuenta promesa
-else if(informacion === cuenta350){
+else if(informacion == cuenta350 || informacion == cuenta350Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta350Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Sobrantes de caja
-else if(informacion === cuenta351){
+else if(informacion == cuenta351 || informacion == cuenta351Minuscula){
     document.registro.obtenerDato.value = resultado3;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta351Minuscula){
-document.registro.obtenerDato.value = resultado3;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Sueldos de administración
-else if(informacion === cuenta352){
+else if(informacion == cuenta352 || informacion == cuenta352Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta352Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Sueldos sala de ventas
-else if(informacion === cuenta353){
+else if(informacion == cuenta353 || informacion == cuenta353Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta353Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Sueldos de vendedores
-else if(informacion === cuenta354){
+else if(informacion == cuenta354 || informacion == cuenta354Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta354Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Sueldos pagados por anticipado
-else if(informacion === cuenta355){
+else if(informacion == cuenta355 || informacion == cuenta355Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta355Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Sueldos por pagar
-else if(informacion === cuenta356){
+else if(informacion == cuenta356 || informacion == cuenta356Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta356Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Suministros
-else if(informacion === cuenta357){
+else if(informacion == cuenta357 || informacion == cuenta357Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta357Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Suministros consumidos fábrica
-else if(informacion === cuenta358){
+else if(informacion == cuenta358 || informacion == cuenta358Minuscula){
     document.registro.obtenerDato.value = resultado5;
-    document.registro.obtenerDato2.value = libro3;
-}else if(informacion === cuenta358Minuscula){
-document.registro.obtenerDato.value = resultado5;
     document.registro.obtenerDato2.value = libro3;
 }
 //Suministros consumidos de oficina
-else if(informacion === cuenta359){
+else if(informacion == cuenta359 || informacion == cuenta359Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta359Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Suministros consumidos sala de ventas
-else if(informacion === cuenta360){
+else if(informacion == cuenta360 || informacion == cuenta360Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta360Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Superávit acumulado
-else if(informacion === cuenta361){
+else if(informacion == cuenta361 || informacion == cuenta361Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta361Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Suscriptores de acciones
-else if(informacion === cuenta362){
+else if(informacion == cuenta362 || informacion == cuenta362Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta362Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Terrenos
-else if(informacion === cuenta363){
+else if(informacion == cuenta363 || informacion == cuenta363Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta363Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Utiles y enseres
-else if(informacion === cuenta364){
+else if(informacion == cuenta364 || informacion == cuenta364Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta364Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Utiles y enseres consumidos
-else if(informacion === cuenta365){
+else if(informacion == cuenta365 || informacion == cuenta365Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta365Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Utilidad del ejercicio
-else if(informacion === cuenta366){
+else if(informacion == cuenta366 || informacion == cuenta366Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta366Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Utilidades no distribuidas
-else if(informacion === cuenta367){
+else if(informacion == cuenta367 || informacion == cuenta367Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta367Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Utilidad por distribuir
-else if(informacion === cuenta368){
+else if(informacion == cuenta368 || informacion == cuenta368Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta368Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Valores mobiliarios
-else if(informacion === cuenta369){
+else if(informacion == cuenta369 || informacion == cuenta369Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta369Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Vehículos
-else if(informacion === cuenta370){
+else if(informacion == cuenta370 || informacion == cuenta370Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta370Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Vehículos de reparto
-else if(informacion === cuenta371){
+else if(informacion == cuenta371 || informacion == cuenta371Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta371Minuscula){
-document.registro.obtenerDato.value = resultado1;
     document.registro.obtenerDato2.value = resultado5;
 }
 //Ventas
-else if(informacion === cuenta372){
+else if(informacion == cuenta372 || informacion == cuenta372Minuscula){
     document.registro.obtenerDato.value = resultado3;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta372Minuscula){
-document.registro.obtenerDato.value = resultado3;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Ventas por realizar
-else if(informacion === cuenta373){
+else if(informacion == cuenta373 || informacion == cuenta373Minuscula){
     document.registro.obtenerDato.value = resultado2;
-    document.registro.obtenerDato2.value = resultado6;
-}else if(informacion === cuenta373Minuscula){
-document.registro.obtenerDato.value = resultado2;
     document.registro.obtenerDato2.value = resultado6;
 }
 //Viáticos
-else if(informacion === cuenta374){
+else if(informacion == cuenta374 || informacion == cuenta374Minuscula){
     document.registro.obtenerDato.value = resultado4;
-    document.registro.obtenerDato2.value = resultado5;
-}else if(informacion === cuenta374Minuscula){
-document.registro.obtenerDato.value = resultado4;
     document.registro.obtenerDato2.value = resultado5;
 }
 //si no se encuentra la cuenta
