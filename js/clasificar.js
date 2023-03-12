@@ -1,17 +1,12 @@
 const boton2 = document.getElementById("boton_2");
 const botonBuscar = document.getElementById("boton_buscar");
 
-const imagenPublicidad = document.getElementById("imagenPublicidad");
-const cerrarPublicidad = document.getElementById("cerrarPublicidad");
-const cerrarPublicidad2 = document.getElementById("cerrarPublicidad2");
-const imagenPublicidad2 = document.getElementById("imagenPublicidad2");
 
 boton2.addEventListener("click", lista);
 botonBuscar.addEventListener("click", obtenerdatos);
 
 
-cerrarPublicidad.addEventListener("click", eliminarPublicidad);
-cerrarPublicidad2.addEventListener("click", elliminarPublicidad2);
+
 
 function lista(){
     let list = document.getElementById('lista').value;
@@ -2069,18 +2064,18 @@ else if(informacion == cuenta254 || informacion == cuenta254Minuscula){
 }
 //Inventario final de artículos en proceso
 else if(informacion == cuenta255 || informacion == cuenta255Minuscula){
-    document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
+    document.registro.obtenerDato.value = resultado6;
+    document.registro.obtenerDato2.value = libro3;
 }
 //Inventario final de artículos terminados
 else if(informacion == cuenta256 || informacion == cuenta256Minuscula){
     document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
+    document.registro.obtenerDato2.value = libro1;
 }
 //Inventario final de matería prima
 else if(informacion == cuenta257 || informacion == cuenta257Minuscula){
-    document.registro.obtenerDato.value = resultado1;
-    document.registro.obtenerDato2.value = resultado5;
+    document.registro.obtenerDato.value = resultado6;
+    document.registro.obtenerDato2.value = libro3;
 }
 //Inversiones
 else if(informacion == cuenta258 || informacion == cuenta258Minuscula){
@@ -2691,13 +2686,7 @@ else{
 }
 
 
-function eliminarPublicidad(){
-    imagenPublicidad.style.display = "none";
-}
 
-function elliminarPublicidad2(){
-    imagenPublicidad2.style.display = "none";
-}
 
 
 
